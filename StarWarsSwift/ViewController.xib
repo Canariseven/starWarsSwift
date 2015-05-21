@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="7702" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7701"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ViewController" customModule="StarWarsSwift" customModuleProvider="target">
+            <connections>
+                <outlet property="view" destination="iN0-l3-epB" id="dPD-gQ-Fgh"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Star-Wars-the-Force-Unleashed.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="yN2-Sk-ybU" customClass="Star">
+                    <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                </imageView>
+                <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" animating="YES" style="whiteLarge" translatesAutoresizingMaskIntoConstraints="NO" id="jXD-8q-WEX">
+                    <rect key="frame" x="237" y="144" width="37" height="37"/>
+                    <color key="color" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                </activityIndicatorView>
+                <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" animating="YES" style="whiteLarge" translatesAutoresizingMaskIntoConstraints="NO" id="uuh-wg-sZf">
+                    <rect key="frame" x="330" y="144" width="37" height="37"/>
+                    <color key="color" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                </activityIndicatorView>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="yN2-Sk-ybU" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="1Wr-EK-4eA"/>
+                <constraint firstAttribute="bottom" secondItem="yN2-Sk-ybU" secondAttribute="bottom" id="ac7-iq-nYz"/>
+                <constraint firstAttribute="trailing" secondItem="yN2-Sk-ybU" secondAttribute="trailing" id="cgN-Qh-bEI"/>
+                <constraint firstAttribute="centerX" secondItem="uuh-wg-sZf" secondAttribute="centerX" constant="-48.5" id="gaR-xa-FI4">
+                    <variation key="heightClass=compact" constant="-32.5"/>
+                    <variation key="heightClass=regular" constant="-66.5"/>
+                    <variation key="heightClass=compact-widthClass=regular" constant="-35.5"/>
+                    <variation key="heightClass=regular-widthClass=compact" constant="-67.5"/>
+                </constraint>
+                <constraint firstAttribute="centerY" secondItem="jXD-8q-WEX" secondAttribute="centerY" constant="137.5" id="hNe-F5-NbC">
+                    <variation key="heightClass=compact" constant="93.5"/>
+                    <variation key="heightClass=regular" constant="189.5"/>
+                    <variation key="heightClass=compact-widthClass=regular" constant="105.5"/>
+                    <variation key="heightClass=regular-widthClass=compact" constant="185.5"/>
+                </constraint>
+                <constraint firstAttribute="centerY" secondItem="uuh-wg-sZf" secondAttribute="centerY" constant="137.5" id="k4m-hb-Pjx">
+                    <variation key="heightClass=compact" constant="93.5"/>
+                    <variation key="heightClass=regular" constant="189.5"/>
+                    <variation key="heightClass=compact-widthClass=regular" constant="105.5"/>
+                    <variation key="heightClass=regular-widthClass=compact" constant="185.5"/>
+                </constraint>
+                <constraint firstItem="yN2-Sk-ybU" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="rKz-Ee-rA0"/>
+                <constraint firstAttribute="centerX" secondItem="jXD-8q-WEX" secondAttribute="centerX" constant="44.5" id="vx0-np-NLj">
+                    <variation key="heightClass=compact" constant="28.5"/>
+                    <variation key="heightClass=regular" constant="57.5"/>
+                    <variation key="heightClass=compact-widthClass=regular" constant="33.5"/>
+                    <variation key="heightClass=regular-widthClass=compact" constant="58.5"/>
+                </constraint>
+            </constraints>
+        </view>
+    </objects>
+    <resources>
+        <image name="Star-Wars-the-Force-Unleashed.jpg" width="1280" height="720"/>
+    </resources>
+</document>

@@ -7,13 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3213712A1B0D50AE00CA403D /* perfil.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 321371291B0D50AE00CA403D /* perfil.jpg */; };
+		3213712C1B0D568800CA403D /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3213712B1B0D568800CA403D /* ViewController.xib */; };
+		3213712E1B0D56C100CA403D /* Star-Wars-the-Force-Unleashed.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3213712D1B0D56C100CA403D /* Star-Wars-the-Force-Unleashed.jpg */; };
+		322FBE051B0512D50034CE34 /* TableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 322FBE041B0512D50034CE34 /* TableViewController.xib */; };
+		322FBE091B0514C20034CE34 /* starWarsCharacterTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 322FBE071B0514C20034CE34 /* starWarsCharacterTableViewCell.swift */; };
+		322FBE0A1B0514C20034CE34 /* starWarsCharacterTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 322FBE081B0514C20034CE34 /* starWarsCharacterTableViewCell.xib */; };
+		324C1E6A1B04EB430029B35F /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 324C1E681B04EB430029B35F /* TableViewController.swift */; };
+		324C1E6F1B04F9A40029B35F /* Services.swift in Sources */ = {isa = PBXBuildFile; fileRef = 324C1E6E1B04F9A40029B35F /* Services.swift */; };
 		32A49A921AFD5CD800E719E7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32A49A911AFD5CD800E719E7 /* AppDelegate.swift */; };
-		32A49A951AFD5CD800E719E7 /* StarWarsSwift.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 32A49A931AFD5CD800E719E7 /* StarWarsSwift.xcdatamodeld */; };
 		32A49A971AFD5CD800E719E7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32A49A961AFD5CD800E719E7 /* ViewController.swift */; };
-		32A49A9A1AFD5CD800E719E7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 32A49A981AFD5CD800E719E7 /* Main.storyboard */; };
 		32A49A9C1AFD5CD800E719E7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 32A49A9B1AFD5CD800E719E7 /* Images.xcassets */; };
 		32A49A9F1AFD5CD800E719E7 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 32A49A9D1AFD5CD800E719E7 /* LaunchScreen.xib */; };
 		32A49AAB1AFD5CD800E719E7 /* StarWarsSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32A49AAA1AFD5CD800E719E7 /* StarWarsSwiftTests.swift */; };
+		32A49AB51AFD5DDE00E719E7 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32A49AB41AFD5DDE00E719E7 /* Model.swift */; };
+		32A49AB71AFD679600E719E7 /* LibraryModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32A49AB61AFD679600E719E7 /* LibraryModel.swift */; };
+		32C643F91B05FAE200DF0D34 /* modelPhotos.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32C643F81B05FAE200DF0D34 /* modelPhotos.swift */; };
+		32C643FB1B05FF3300DF0D34 /* PhotosCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32C643FA1B05FF3300DF0D34 /* PhotosCollectionViewController.swift */; };
+		32C643FE1B0606E600DF0D34 /* PhotoCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32C643FC1B0606E600DF0D34 /* PhotoCollectionViewCell.swift */; };
+		32C643FF1B0606E600DF0D34 /* PhotoCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 32C643FD1B0606E600DF0D34 /* PhotoCollectionViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,17 +39,29 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		321371291B0D50AE00CA403D /* perfil.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = perfil.jpg; path = ../perfil.jpg; sourceTree = "<group>"; };
+		3213712B1B0D568800CA403D /* ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewController.xib; sourceTree = "<group>"; };
+		3213712D1B0D56C100CA403D /* Star-Wars-the-Force-Unleashed.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "Star-Wars-the-Force-Unleashed.jpg"; path = "../Star-Wars-the-Force-Unleashed.jpg"; sourceTree = "<group>"; };
+		322FBE041B0512D50034CE34 /* TableViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TableViewController.xib; sourceTree = "<group>"; };
+		322FBE071B0514C20034CE34 /* starWarsCharacterTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = starWarsCharacterTableViewCell.swift; path = StarWarsSwift/starWarsCharacterTableViewCell.swift; sourceTree = "<group>"; };
+		322FBE081B0514C20034CE34 /* starWarsCharacterTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = starWarsCharacterTableViewCell.xib; path = StarWarsSwift/starWarsCharacterTableViewCell.xib; sourceTree = "<group>"; };
+		324C1E681B04EB430029B35F /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		324C1E6E1B04F9A40029B35F /* Services.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Services.swift; path = ../Services.swift; sourceTree = "<group>"; };
 		32A49A8C1AFD5CD800E719E7 /* StarWarsSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StarWarsSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		32A49A901AFD5CD800E719E7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		32A49A911AFD5CD800E719E7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		32A49A941AFD5CD800E719E7 /* StarWarsSwift.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = StarWarsSwift.xcdatamodel; sourceTree = "<group>"; };
 		32A49A961AFD5CD800E719E7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		32A49A991AFD5CD800E719E7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		32A49A9B1AFD5CD800E719E7 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		32A49A9E1AFD5CD800E719E7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		32A49AA41AFD5CD800E719E7 /* StarWarsSwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StarWarsSwiftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		32A49AA91AFD5CD800E719E7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		32A49AAA1AFD5CD800E719E7 /* StarWarsSwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarWarsSwiftTests.swift; sourceTree = "<group>"; };
+		32A49AB41AFD5DDE00E719E7 /* Model.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		32A49AB61AFD679600E719E7 /* LibraryModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LibraryModel.swift; path = ../LibraryModel.swift; sourceTree = "<group>"; };
+		32C643F81B05FAE200DF0D34 /* modelPhotos.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = modelPhotos.swift; sourceTree = "<group>"; };
+		32C643FA1B05FF3300DF0D34 /* PhotosCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotosCollectionViewController.swift; sourceTree = "<group>"; };
+		32C643FC1B0606E600DF0D34 /* PhotoCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PhotoCollectionViewCell.swift; path = StarWarsSwift/PhotoCollectionViewCell.swift; sourceTree = "<group>"; };
+		32C643FD1B0606E600DF0D34 /* PhotoCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = PhotoCollectionViewCell.xib; path = StarWarsSwift/PhotoCollectionViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +82,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		322FBE061B0514900034CE34 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				322FBE071B0514C20034CE34 /* starWarsCharacterTableViewCell.swift */,
+				322FBE081B0514C20034CE34 /* starWarsCharacterTableViewCell.xib */,
+				32C643FC1B0606E600DF0D34 /* PhotoCollectionViewCell.swift */,
+				32C643FD1B0606E600DF0D34 /* PhotoCollectionViewCell.xib */,
+			);
+			name = Cell;
+			path = ..;
+			sourceTree = "<group>";
+		};
 		32A49A831AFD5CD800E719E7 = {
 			isa = PBXGroup;
 			children = (
@@ -79,13 +115,22 @@
 		32A49A8E1AFD5CD800E719E7 /* StarWarsSwift */ = {
 			isa = PBXGroup;
 			children = (
+				322FBE061B0514900034CE34 /* Cell */,
+				324C1E6E1B04F9A40029B35F /* Services.swift */,
 				32A49A911AFD5CD800E719E7 /* AppDelegate.swift */,
 				32A49A961AFD5CD800E719E7 /* ViewController.swift */,
-				32A49A981AFD5CD800E719E7 /* Main.storyboard */,
+				3213712D1B0D56C100CA403D /* Star-Wars-the-Force-Unleashed.jpg */,
+				3213712B1B0D568800CA403D /* ViewController.xib */,
 				32A49A9B1AFD5CD800E719E7 /* Images.xcassets */,
 				32A49A9D1AFD5CD800E719E7 /* LaunchScreen.xib */,
-				32A49A931AFD5CD800E719E7 /* StarWarsSwift.xcdatamodeld */,
 				32A49A8F1AFD5CD800E719E7 /* Supporting Files */,
+				32A49AB41AFD5DDE00E719E7 /* Model.swift */,
+				32A49AB61AFD679600E719E7 /* LibraryModel.swift */,
+				321371291B0D50AE00CA403D /* perfil.jpg */,
+				324C1E681B04EB430029B35F /* TableViewController.swift */,
+				32C643FA1B05FF3300DF0D34 /* PhotosCollectionViewController.swift */,
+				322FBE041B0512D50034CE34 /* TableViewController.xib */,
+				32C643F81B05FAE200DF0D34 /* modelPhotos.swift */,
 			);
 			path = StarWarsSwift;
 			sourceTree = "<group>";
@@ -195,8 +240,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				32A49A9A1AFD5CD800E719E7 /* Main.storyboard in Resources */,
+				3213712C1B0D568800CA403D /* ViewController.xib in Resources */,
+				322FBE051B0512D50034CE34 /* TableViewController.xib in Resources */,
+				3213712A1B0D50AE00CA403D /* perfil.jpg in Resources */,
+				32C643FF1B0606E600DF0D34 /* PhotoCollectionViewCell.xib in Resources */,
+				3213712E1B0D56C100CA403D /* Star-Wars-the-Force-Unleashed.jpg in Resources */,
 				32A49A9F1AFD5CD800E719E7 /* LaunchScreen.xib in Resources */,
+				322FBE0A1B0514C20034CE34 /* starWarsCharacterTableViewCell.xib in Resources */,
 				32A49A9C1AFD5CD800E719E7 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -215,9 +265,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				32A49AB71AFD679600E719E7 /* LibraryModel.swift in Sources */,
+				324C1E6A1B04EB430029B35F /* TableViewController.swift in Sources */,
 				32A49A971AFD5CD800E719E7 /* ViewController.swift in Sources */,
-				32A49A951AFD5CD800E719E7 /* StarWarsSwift.xcdatamodeld in Sources */,
+				32C643FB1B05FF3300DF0D34 /* PhotosCollectionViewController.swift in Sources */,
+				324C1E6F1B04F9A40029B35F /* Services.swift in Sources */,
 				32A49A921AFD5CD800E719E7 /* AppDelegate.swift in Sources */,
+				322FBE091B0514C20034CE34 /* starWarsCharacterTableViewCell.swift in Sources */,
+				32C643F91B05FAE200DF0D34 /* modelPhotos.swift in Sources */,
+				32C643FE1B0606E600DF0D34 /* PhotoCollectionViewCell.swift in Sources */,
+				32A49AB51AFD5DDE00E719E7 /* Model.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -240,14 +297,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		32A49A981AFD5CD800E719E7 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				32A49A991AFD5CD800E719E7 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		32A49A9D1AFD5CD800E719E7 /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -415,6 +464,7 @@
 				32A49AB01AFD5CD800E719E7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		32A49AB11AFD5CD800E719E7 /* Build configuration list for PBXNativeTarget "StarWarsSwiftTests" */ = {
 			isa = XCConfigurationList;
@@ -423,21 +473,9 @@
 				32A49AB31AFD5CD800E719E7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCVersionGroup section */
-		32A49A931AFD5CD800E719E7 /* StarWarsSwift.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				32A49A941AFD5CD800E719E7 /* StarWarsSwift.xcdatamodel */,
-			);
-			currentVersion = 32A49A941AFD5CD800E719E7 /* StarWarsSwift.xcdatamodel */;
-			path = StarWarsSwift.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
-/* End XCVersionGroup section */
 	};
 	rootObject = 32A49A841AFD5CD800E719E7 /* Project object */;
 }
